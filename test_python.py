@@ -1,0 +1,2 @@
+password = "asdadsa"
+print(password)

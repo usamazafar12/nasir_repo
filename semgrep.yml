@@ -1,0 +1,16 @@
+rules:
+  - id: example-rule
+    message: "Avoid using print statements"
+    patterns:
+      - pattern: "print($X*)"
+    languages:
+      - python
+    severity: 'ERROR'
+    
+  - id: example-rule
+    message: "Avoid using hardcoded credentials"
+    patterns:
+      - pattern: "password = '.*'"
+    languages:
+      - python
+    severity: 'ERROR'
